@@ -1,24 +1,33 @@
 .headerContainer {
     display: flex;
     flex-direction: row;
-    width: 1440px;
-    margin: auto;
+    justify-content: space-between;
+    padding: 16px 64px;
 }
 
 .headerContainer div:nth-child(1) {
-    font-family: var(--roboto-condensed);
-    font-weight: 700;
-    font-size: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
     gap: 12px;
-    text-align: center;
-    color: var(--gray-one);
+}
 
+.headerContainer div:nth-child(1) h1 {
+    color: var(--gray-one);
+    font: 700 40px var(--roboto-condensed);
 }
 
 .headerContainer div:nth-child(1) span {
     color: var(--yellow-one);
+}
+
+.headerContainer div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.headerContainer div:nth-child(2) a {
+    color: var(--gray-one);
+    font: 600 18px var(--sora);
 }
