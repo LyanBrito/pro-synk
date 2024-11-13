@@ -1,8 +1,9 @@
+import styles from "./header.module.css";
 import { Login, Logo, Lupa } from "../../assets/images";
 
 export default function Header() {
     return (
-        <header>
+        <header className={styles.headerContainer}>
             <div>
                 <img src={Logo} alt="Logo for ProSync" />
                 <h1>Pro<span>Sync</span></h1>
