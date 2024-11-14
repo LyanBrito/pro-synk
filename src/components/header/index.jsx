@@ -11,7 +11,7 @@ export default function Header() {
             <div><a href="#">Find freelancers</a><a href="#">Work with us</a></div>
             <div>
                 <img src={Lupa} alt="Search icon" />
-                <p>Search for work...</p>
+                <input type="text" placeholder=" Search for work..."></input>
             </div>
             <a>Login <img src={Login} alt="Login anchor" /></a>
         </header>
