@@ -1,0 +1,43 @@
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 64px 0px;
+}
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 616px;
+  gap: 24px;
+}
+
+.textWrapper h1 {
+  font: 700 64px var(--sora);
+  color: var(--gray-one);
+}
+
+.textWrapper p {
+  font-weight: 500;
+  color: var(--gray-dotsix);
+}
+.textWrapper h3 {
+  font: 700 40px var(--sora);
+}
+
+.countText {
+  display: flex;
+}
+.countValue {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 24px;
+    border-left: 1px solid var(--gray-dottwo);
+}
+
+.countValue:nth-child(1){
+    padding-left: 0px;
+    border: unset;
+    
+}
+.countValue:nth-child(3){
+    padding-right: 0px;
+}
