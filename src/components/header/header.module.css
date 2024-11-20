@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 16px 64px;
+  padding: 32px 64px 16px;
 }
 
 .headerLogo {
@@ -21,17 +21,17 @@
   font: 700 32px var(--roboto-condensed);
 }
 
-span {
+.headerContainer span {
   color: var(--yellow-one);
 }
 
-nav {
+.headerContainer nav {
   display: flex;
   align-items: center;
   gap: 24px;
 }
 
-nav a {
+.headerContainer nav a {
   color: var(--gray-one);
   font: 600 18px var(--sora);
 }
@@ -64,17 +64,22 @@ nav a {
   color: var(--gray-one);
   cursor: pointer;
 }
-.loginContainer{
-    display: flex;
-    gap: 8px;
-    
+.loginContainer {
+  display: flex;
+  gap: 8px;
 }
-.loginContainer :nth-child(2){
-    background-color: var(--gray-one);
-    color: var(--background-color);
-    border-radius: 60px;
+.loginContainer :nth-child(2) {
+  background-color: var(--gray-one);
+  color: var(--background-color);
 }
 
-.loginContainer a{
-    padding: 12.5px 24px;
+.loginContainer a {
+  padding: 12.5px 24px;
+  border-radius: 60px;
+  transition-duration: 0.3s;
+}
+
+.loginContainer a:hover {
+  box-shadow: 0px 0px 6px hsla(198, 52%, 22%, 0.2);
+  transform: scale(1.03);
 }

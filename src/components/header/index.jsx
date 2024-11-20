@@ -1,5 +1,5 @@
 import styles from "./header.module.css";
-import { Login, Logo, Lupa } from "../../assets/svg";
+import { Logo } from "../../assets/svg";
 
 export default function Header() {
   return (
@@ -14,7 +14,6 @@ export default function Header() {
         <a href="#">Find freelancers</a>
         <a href="#">Work with us</a>
       </nav>
-
       <div className={styles.loginContainer}>
         <a href="#">Login</a>
         <a href="#">Register</a>
