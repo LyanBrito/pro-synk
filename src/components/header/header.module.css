@@ -21,7 +21,7 @@
   font: 700 32px var(--roboto-condensed);
 }
 
-.headerLogo span {
+span {
   color: var(--yellow-one);
 }
 
