@@ -1,7 +1,7 @@
 main {
   display: flex;
-  justify-content: space-around;
-  padding: 64px 0px;
+  justify-content: space-between;
+  padding: 64px;
 }
 .textWrapper {
   display: flex;
@@ -13,6 +13,10 @@ main {
 .textWrapper h1 {
   font: 700 64px var(--sora);
   color: var(--gray-one);
+}
+
+.textWrapper span {
+  color: var(--yellow-one);
 }
 
 .textWrapper p {
@@ -27,17 +31,16 @@ main {
   display: flex;
 }
 .countValue {
-    display: flex;
-    flex-direction: column;
-    padding: 0px 24px;
-    border-left: 1px solid var(--gray-dottwo);
+  display: flex;
+  flex-direction: column;
+  padding: 0px 24px;
+  border-left: 1px solid var(--gray-dottwo);
 }
 
-.countValue:nth-child(1){
-    padding-left: 0px;
-    border: unset;
-    
+.countValue:nth-child(1) {
+  padding-left: 0px;
+  border: unset;
 }
-.countValue:nth-child(3){
-    padding-right: 0px;
+.countValue:nth-child(3) {
+  padding-right: 0px;
 }
