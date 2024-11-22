@@ -1,0 +1,13 @@
+.carouselContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px; 
+  gap: 100px;
+  background-color: var(--gray-one);
+}
+.carouselContainer h4 {
+  color: var(--background-color);
+  font: 500 32px var(--roboto-condensed);
+}
