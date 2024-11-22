@@ -1,7 +1,10 @@
 main {
   display: flex;
   justify-content: space-between;
-  padding: 64px;
+  align-items: center;
+  padding: 64px 0px;
+  width: 1312px;
+  gap: 6.97%;
 }
 .textWrapper {
   display: flex;
@@ -13,6 +16,7 @@ main {
 .textWrapper h1 {
   font: 700 64px var(--sora);
   color: var(--gray-one);
+  line-height: 64px;
 }
 
 .textWrapper span {
