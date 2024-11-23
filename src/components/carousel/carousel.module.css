@@ -3,11 +3,35 @@
   width: 100%;
   align-items: center;
   justify-content: center;
-  padding: 40px 0px; 
-  gap: 100px;
+  overflow: hidden;
+  padding: 40px 0px;
   background-color: var(--gray-one);
 }
-.carouselContainer h4 {
+
+.carouselItens {
+  gap: 50px;
+  display: flex;
+  animation: scroll 13s linear infinite;
+}
+
+.carouselItens a {
   color: var(--background-color);
   font: 500 32px var(--roboto-condensed);
+  width: 250px;
+  animation-play-state: running;
+}
+.carouselItens:hover{
+  animation-play-state: paused;
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+
 }
