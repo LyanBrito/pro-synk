@@ -31,6 +31,16 @@ main {
   font: 700 40px var(--sora);
 }
 
+.textWrapper button {
+  background-color: var(--gray-one);
+  color: var(--background-color);
+  border-radius: 60px;
+  padding: 12.5px 24px;
+  width: fit-content;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
 .countText {
   display: flex;
 }
