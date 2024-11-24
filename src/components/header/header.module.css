@@ -56,8 +56,3 @@
   background-color: var(--gray-one);
   color: var(--background-color);
 }
-
-.loginContainer button:hover {
-  box-shadow: 0px 0px 6px hsla(198, 52%, 22%, 0.2);
-  transform: scale(1.03);
-}
