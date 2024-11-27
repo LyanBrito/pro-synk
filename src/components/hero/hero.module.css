@@ -3,14 +3,14 @@ main {
   justify-content: space-between;
   align-items: center;
   padding: 64px 0px;
-  width: 1312px;
-  gap: 6.97%;
+  width: 1440px;
 }
 .textWrapper {
   display: flex;
   flex-direction: column;
   width: 616px;
   gap: 24px;
+  margin-left: 64px;
 }
 
 .textWrapper h1 {
@@ -31,6 +31,16 @@ main {
   font: 700 40px var(--sora);
 }
 
+.textWrapper button {
+  background-color: var(--gray-one);
+  color: var(--background-color);
+  border-radius: 60px;
+  padding: 12.5px 24px;
+  width: fit-content;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
 .countText {
   display: flex;
 }
@@ -47,4 +57,16 @@ main {
 }
 .countValue:nth-child(3) {
   padding-right: 0px;
+}
+
+.workingWoman {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-right: 64px;
+}
+
+.workingWoman p {
+  display: inline;
+  font: 400 12px var(--sora);
 }

@@ -31,7 +31,10 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <img src={Workingwoman} alt="working-woman" />
+      <div className={styles.workingWoman}>
+        <img src={Workingwoman} alt="working-woman" />
+        <p>Designed by <a href="https://www.freepik.com/author/stories" target="_blank" rel="nofollow noopener noreferrer"><p>storyset</p></a></p>
+      </div>
     </main>
   );
 }
