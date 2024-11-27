@@ -30,7 +30,8 @@
 }
 a,
 p,
-button {
+button,
+h4 {
   font: 500 18px var(--sora);
   color: var(--gray-one);
 }
