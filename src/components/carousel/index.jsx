@@ -19,6 +19,13 @@ export default function Carousel() {
                 <a href="#">MARKETING</a>
                 <a href="#">EDITING</a>
                 <a href="#">SCRIPTS</a>
+                <a href="#">WEBSITE</a>
+                <a href="#">DESIGN</a>
+                <a href="#">MARKETING</a>
+                <a href="#">EDITING</a>
+                <a href="#">SCRIPTS</a>
+                <a href="#">WEBSITE</a>
+                <a href="#">DESIGN</a>
             </div>
         </section>
     )
