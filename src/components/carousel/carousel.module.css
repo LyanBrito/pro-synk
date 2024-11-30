@@ -1,17 +1,18 @@
 .carouselContainer {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
   padding: 40px 0px;
   background-color: var(--gray-one);
+  display: flex;
+  position: relative;
+  width: 1440px;
+  overflow: hidden !important;
 }
 
 .carouselItens {
-  gap: 50px;
   display: flex;
-  animation: scroll 13s linear infinite;
+  justify-content: center;
+  width: calc(250px * 22);
+  gap: 10px;
+  animation: scroll 3s linear infinite;
 }
 
 .carouselItens a {
@@ -19,11 +20,11 @@
   font: 500 32px var(--roboto-condensed);
   width: 250px;
   animation-play-state: running;
+  text-align: center;
 }
-.carouselItens:hover{
+.carouselItens:hover {
   animation-play-state: paused;
 }
-
 
 @keyframes scroll {
   0% {
@@ -31,7 +32,6 @@
   }
 
   100% {
-    transform: translateX(calc(-250px * 7));
+    transform: translateX(-1252px);
   }
-
 }
