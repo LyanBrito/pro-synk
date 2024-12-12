@@ -12,7 +12,7 @@
   justify-content: center;
   width: calc(250px * 22);
   gap: 10px;
-  animation: scroll 3s linear infinite;
+  animation: scroll 10s linear infinite;
 }
 
 .carouselItens a {

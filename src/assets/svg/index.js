@@ -9,3 +9,6 @@ export { default as Changecontrolcard } from "./changecontrolcard.svg"
 export { default as Bigdatacard } from "./bigdatacard.svg"
 export { default as Lupa } from "./lupa.svg"
 export { default as Login } from "./loginicon.svg"
+
+export { default as Star } from "./star.svg"
+export { default as HfStar } from "./hfstar.svg"
