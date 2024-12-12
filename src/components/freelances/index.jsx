@@ -88,7 +88,7 @@ export default function Freelances() {
           </div>
         </div>
       </div>
-      <button></button>
+      <button>View All</button>
     </section>
   );
 }

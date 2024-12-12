@@ -7,6 +7,12 @@ section {
   gap: 40px;
   width: 1440px;
 }
+section button{
+    background-color: var(--gray-one);
+    color: var(--background-color);
+    padding: 16px 68px;
+    border-radius: 60px;
+}
 .products{
     display: flex;
     gap: 32px;
